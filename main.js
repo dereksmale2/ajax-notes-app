@@ -48,7 +48,6 @@ const createNote = () => {
 //     fetch(url + '/' + ex, {
 //         method: 'PUT',
 //         headers: {'Content-Type': 'application/json'},
-//         body: JSON.stringify({})
 //     })
 //     .then(res => res.json())
 //     .then(data => {
@@ -68,8 +67,8 @@ const deleteNote = (id) => {
 }
 
 // Helper Methods
-const deleteText = el => {
-    el.value = "";
+const deleteText = element => {
+    element.value = "";
 }
 
 
